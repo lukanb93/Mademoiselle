@@ -9901,4 +9901,52 @@ header .navbar-nav a.active {
   }
 }
 
+.lead-section {
+  margin-top: 7rem;
+  padding: 140px 0;
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.lead-section .lead-section-title {
+  color: #FFFFFF;
+  font-size: 3.5rem;
+  line-height: 5.4rem;
+  letter-spacing: 0.6rem;
+}
+
+@media (min-width: 768px) {
+  .lead-section {
+    padding: 200px 0;
+  }
+  .lead-section .lead-section-title {
+    font-size: 5rem;
+    line-height: 7.4rem;
+    letter-spacing: 1.3rem;
+  }
+}
+
+@media (min-width: 992px) {
+  .lead-section {
+    padding: 220px 0;
+  }
+  .lead-section .lead-section-title {
+    font-size: 6rem;
+    line-height: 8.4rem;
+    letter-spacing: 1.6rem;
+  }
+}
+
+@media (min-width: 1200px) {
+  .lead-section {
+    padding: 217px 0 269px;
+  }
+  .lead-section .lead-section-title {
+    font-size: 6rem;
+    line-height: 8.4rem;
+    letter-spacing: 2rem;
+  }
+}
+
 /*# sourceMappingURL=theme.css.map */
