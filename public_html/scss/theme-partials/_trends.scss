@@ -1,3 +1,4 @@
+$border-bg : #ECD9D9;
 
 .trends-section{
     padding: 30px 0;
@@ -11,7 +12,7 @@
                 content: '';
                 width: 74px;
                 height: 2px;
-                background-color: #ECD9D9;
+                background-color: $border-bg;
                 position: relative;
             }
         }
@@ -81,6 +82,9 @@
 @media(min-width:992px){
     .trends-section{
         padding: 75px 0 106px;
+        .trends-header{
+            margin-bottom: 43px;
+        }
         .trends-item{
             .trends-info{
                 bottom: -80px;

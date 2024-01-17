@@ -10034,6 +10034,9 @@ header .navbar-nav a.active {
   .trends-section {
     padding: 75px 0 106px;
   }
+  .trends-section .trends-header {
+    margin-bottom: 43px;
+  }
   .trends-section .trends-item .trends-info {
     bottom: -80px;
   }
@@ -10042,6 +10045,115 @@ header .navbar-nav a.active {
 @media (min-width: 1200px) {
   .trends-section .trends-item .trends-info {
     bottom: -75px;
+  }
+}
+
+.services-section {
+  padding: 20px 0;
+}
+
+.services-section .services-header {
+  margin-bottom: 30px;
+}
+
+.services-section .services-header .services-title {
+  letter-spacing: 3px;
+}
+
+.services-section .services-header .services-title:after {
+  margin-top: 15px;
+  display: block;
+  content: '';
+  width: 74px;
+  height: 2px;
+  background-color: #ECD9D9;
+  position: relative;
+}
+
+.services-section .services-item {
+  background-color: #F5F5F5;
+}
+
+.services-section .services-item:nth-of-type(even) {
+  background-color: #ECD9D9;
+}
+
+.services-section .services-item figure {
+  overflow: hidden;
+}
+
+.services-section .services-item figure img:hover {
+  transition: 1s all;
+  transform: scale(1.1);
+}
+
+.services-section .services-item .services-content {
+  padding: 70px 60px;
+}
+
+.services-section .services-item .services-content .services-description {
+  overflow: hidden;
+  line-height: 3rem;
+  height: 9rem;
+  margin-bottom: 10px;
+  font-size: 2rem;
+}
+
+.services-section .services-item .services-content .learn-more {
+  display: inline-block;
+  padding: 15px 36px;
+  font-size: 1.4rem;
+  line-height: 1.7rem;
+  letter-spacing: 0.5px;
+  border: 1px solid #1E1E1E;
+  font-weight: 500;
+}
+
+@media (min-width: 576px) {
+  .services-section .services-item .services-content {
+    padding: 30px 30px;
+  }
+}
+
+@media (min-width: 768px) {
+  .services-section {
+    padding: 50px 0;
+  }
+  .services-section .services-item .services-content {
+    padding: 50px;
+  }
+  .services-section .services-item .services-content .services-description {
+    line-height: 3.6rem;
+    height: 10.8rem;
+    margin-bottom: 10px;
+    font-size: 2.6rem;
+  }
+}
+
+@media (min-width: 992px) {
+  .services-section .services-item .services-content {
+    padding: 80px 70px;
+  }
+  .services-section .services-item .services-content .services-description {
+    line-height: 4.4rem;
+    height: 13.2rem;
+    margin-bottom: 20px;
+    font-size: 3.6rem;
+  }
+}
+
+@media (min-width: 1200px) {
+  .services-section .services-header {
+    margin-bottom: 46px;
+  }
+  .services-section .services-item .services-content {
+    padding: 123px 96px;
+  }
+  .services-section .services-item .services-content .services-description {
+    line-height: 4.4rem;
+    height: 13.2rem;
+    margin-bottom: 20px;
+    font-size: 3.6rem;
   }
 }
 
