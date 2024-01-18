@@ -9979,8 +9979,11 @@ header .navbar-nav a.active {
   overflow: hidden;
 }
 
+.trends-section .trends-item figure img {
+  transition: 0.4s linear;
+}
+
 .trends-section .trends-item figure img:hover {
-  transition: 0.4s ease-out;
   transform: scale(1.1);
 }
 
@@ -10082,8 +10085,11 @@ header .navbar-nav a.active {
   overflow: hidden;
 }
 
+.services-section .services-item figure img {
+  transition: 0.7s linear;
+}
+
 .services-section .services-item figure img:hover {
-  transition: 1s all;
   transform: scale(1.1);
 }
 
@@ -10154,6 +10160,76 @@ header .navbar-nav a.active {
     height: 13.2rem;
     margin-bottom: 20px;
     font-size: 3.6rem;
+  }
+}
+
+.team-section {
+  padding: 20px 0;
+}
+
+.team-section .team-header {
+  margin-bottom: 30px;
+}
+
+.team-section .team-header .team-title {
+  letter-spacing: 3px;
+}
+
+.team-section .team-header .team-title:after {
+  margin-top: 15px;
+  display: block;
+  content: '';
+  width: 74px;
+  height: 2px;
+  background-color: #ECD9D9;
+  position: relative;
+}
+
+.team-section .team-item {
+  border: 1px solid #ECD9D9;
+  padding: 20px 15px;
+}
+
+.team-section .team-item figure {
+  overflow: hidden;
+}
+
+.team-section .team-item figure img {
+  transition: 0.8s all;
+}
+
+.team-section .team-item figure img:hover {
+  transform: scale(1.2);
+}
+
+.team-section .team-item .team-member .team-name {
+  font-size: 3rem;
+  line-height: 2.7rem;
+}
+
+.team-section .team-item .team-member .team-info {
+  line-height: 2.3rem;
+  font-weight: 300 !important;
+}
+
+@media (min-width: 768px) {
+  .team-section .team-header {
+    margin-bottom: 40px;
+  }
+  .team-section .team-item {
+    padding: 54px 10px 24px;
+  }
+  .team-section .team-item .row {
+    justify-content: space-evenly;
+  }
+  .team-section .team-item .team-member {
+    padding: 20;
+  }
+}
+
+@media (min-width: 992px) {
+  .team-section .team-item {
+    padding: 54px 10px;
   }
 }
 
