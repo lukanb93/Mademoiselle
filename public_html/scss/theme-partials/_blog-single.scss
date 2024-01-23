@@ -1,0 +1,102 @@
+$tags-bg : #F5F5F5;
+
+.blog-single-section{
+    padding: 130px 0 70px;
+    .category{
+
+        font-family: $bodoni !important;
+        font-weight: $font-weight-bold;
+        font-size: 1.4rem;
+        line-height: 1.7rem;
+        margin-bottom: 2rem;
+        span{
+            padding: 6px;
+        }
+        .date{
+            font-style: italic;
+            font-weight: $font-weight-medium;
+            padding: 0;
+        }
+    }
+    .blog-single-content{
+        h1{
+            font-size: 2.7rem;
+            font-family: $lato;
+            line-height: 3.1rem;
+        }
+        .blog-single-description{
+            font-weight: $font-weight-light;
+            font-size: 2rem;
+            line-height: 2.4rem;
+        }
+    }
+    .blog-single-info{
+        padding: 50px 0 20px;
+        p{
+            font-size: 1.8rem;
+            line-height : 2.6rem;
+            font-weight: $font-weight-light;
+            margin-bottom: 3rem;
+
+        }
+    }
+    .news-tags{
+        .tags-title{
+            font-style: italic;
+            font-family: $bodoni;
+            font-size: 1.6rem;
+            line-height: 2.7rem;
+        }
+        .tags{
+            a{
+                display: inline-block;
+                font-family: $bodoni;
+                padding: 0 25px;
+                margin-right: 10px;
+                background-color: $tags-bg !important;
+                border: none;       
+            }
+        }
+    }
+
+}
+
+
+
+@media(min-width:768px){
+    .blog-single-section{
+        padding: 150px 0 100px;
+    }
+}
+@media(min-width:992px){
+    .blog-single-section{
+        padding: 180px 0 120px;
+        .blog-single-content{
+            h1{
+                font-size: 3.7rem;
+                font-family: $lato;
+                line-height: 4.1rem;
+            }
+            .blog-single-description{
+                font-size: 2rem;
+                line-height: 2.8rem
+            }
+        }
+        .blog-single-info{
+            padding: 97px 0 41px;
+        }
+    }
+}
+@media(min-width:1200px){
+    .blog-single-section{
+        padding: 235px 0 270px;
+        .blog-single-content{
+            h1{
+                font-size: 4.4rem;
+                font-family: $lato;
+                line-height: 5rem;
+            }
+        }
+    }
+}
+
