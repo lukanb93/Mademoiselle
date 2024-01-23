@@ -1,5 +1,6 @@
 .team-section{
     padding: 20px 0;
+    margin-bottom: 17px;
     .team-header{
         margin-bottom: 30px;
         .team-title   {
@@ -44,6 +45,7 @@
 
 @media(min-width:768px){
     .team-section{
+        margin-bottom: 30px;
         .team-header{
             margin-bottom: 40px;
         }
@@ -61,8 +63,15 @@
 
 @media(min-width:992px){
     .team-section{
+        margin-bottom: 45px;
         .team-item{
             padding: 54px 10px; 
         }
+    }
+}
+
+@media(min-width:1200px){
+    .team-section{
+        margin-bottom: 67px;
     }
 }

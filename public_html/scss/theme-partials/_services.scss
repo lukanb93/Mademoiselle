@@ -116,3 +116,28 @@ $services-item-bg-2 : #ECD9D9;
         }
     }
 }
+
+
+//services page start
+
+.services-page{
+    padding: 40px 0 30px;
+}
+
+@media(min-width:576px){
+    .services-page{
+    padding: 50px 0 30px;
+}
+}
+
+@media(min-width:768px){
+    .services-page{
+    padding: 60px 0 30px;
+}
+}
+
+@media(min-width:992px){
+    .services-page{
+    padding: 88px 0 37px;
+}
+}
