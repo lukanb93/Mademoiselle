@@ -34,7 +34,7 @@ $(document).ready(function () {
     animation();
 
 
-    if($('.contact-form'.length > 0)){
+    if($('.contact-section'.length > 0)){
         
         $('.contact-form').validate({
            

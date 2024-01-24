@@ -40,6 +40,15 @@
         }
         .trends-item{
             margin-bottom: 100px;
+            figure{
+                overflow: hidden;
+                img{
+                    transition: 0.7s linear;
+                    &:hover{
+                        transform: scale(1.1);
+                    }
+                }
+            }
             .trends-info{
                 .trends-publish-date{
                     font-family: $bodoni;

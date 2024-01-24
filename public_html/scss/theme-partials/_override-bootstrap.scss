@@ -11,4 +11,11 @@ $font-weight-medium : 500;
 $grid-gutter-width: 12px;
 $gray-900: #1E1E1E;
 $primary : #1E1E1E;
-
+$grid-breakpoints: (
+  xs: 0,
+  xm: 470px,
+  sm: 576px,
+  md: 768px,
+  lg: 992px,
+  xl: 1200px
+);
