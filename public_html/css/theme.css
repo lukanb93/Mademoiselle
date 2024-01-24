@@ -10502,7 +10502,6 @@ footer .copyright {
   }
   .blog-single-section .blog-single-content h1 {
     font-size: 3.7rem;
-    font-family: "Lato", sans-serif;
     line-height: 4.1rem;
   }
   .blog-single-section .blog-single-content .blog-single-description {
@@ -10520,8 +10519,122 @@ footer .copyright {
   }
   .blog-single-section .blog-single-content h1 {
     font-size: 4.4rem;
-    font-family: "Lato", sans-serif;
     line-height: 5rem;
+  }
+}
+
+.about-section {
+  padding: 40px 0 70px;
+}
+
+.about-section .about-content .about-title {
+  font-family: "Lato", sans-serif;
+  font-size: 3rem;
+  line-height: 3.5rem;
+}
+
+.about-section .about-content p {
+  font-weight: 300;
+  margin-bottom: 15px;
+  font-size: 1.8rem;
+  line-height: 2.6rem;
+}
+
+.about-section .about-content p:first-of-type {
+  font-size: 2rem;
+  line-height: 2.8rem;
+}
+
+.about-section aside .search-box {
+  margin-bottom: 20px;
+}
+
+.about-section aside .search-box input {
+  width: 100%;
+  border: 1px solid #1E1E1E;
+  padding: 20px;
+  height: 5rem;
+  font-family: "Bodoni";
+  font-style: italic;
+  font-weight: 500;
+}
+
+.about-section aside .search-box img {
+  position: absolute;
+  right: 10px;
+  height: 17px;
+  bottom: 17px;
+}
+
+.about-section aside .trends-item {
+  margin-bottom: 100px;
+}
+
+.about-section aside .trends-item .trends-info {
+  position: absolute;
+  bottom: -80px;
+  right: 20px;
+  left: 20px;
+  padding: 22px 20px;
+}
+
+.about-section aside .trends-item .trends-info .trends-publish-date {
+  font-family: "Bodoni";
+  font-style: italic;
+}
+
+.about-section aside .trends-item .trends-info .trends-description {
+  font-size: 1.6rem;
+  line-height: 2rem;
+  height: 6rem;
+}
+
+@media (min-width: 578px) {
+  .about-section {
+    padding: 70px 0 100px;
+  }
+  .about-section .about-content .about-title {
+    font-size: 3.5rem;
+    line-height: 4rem;
+  }
+  .about-section .about-content p {
+    margin-bottom: 30px;
+  }
+  .about-section aside .search-box {
+    margin-bottom: 30px;
+  }
+}
+
+@media (min-width: 768px) {
+  .about-section {
+    padding: 91px 0 120px;
+  }
+  .about-section .about-content .about-title {
+    font-size: 4rem;
+    line-height: 4.5rem;
+  }
+  .about-section .about-content p {
+    margin-bottom: 40px;
+  }
+  .about-section aside .search-box {
+    margin-bottom: 35px;
+  }
+}
+
+@media (min-width: 992px) {
+  .about-section {
+    padding: 91px 0 131px;
+  }
+  .about-section .about-content .about-title {
+    font-size: 4.4rem;
+    line-height: 5rem;
+    margin-bottom: 40px !important;
+  }
+  .about-section .about-content p {
+    margin-bottom: 60px;
+  }
+  .about-section aside .search-box {
+    margin-bottom: 43px;
   }
 }
 
