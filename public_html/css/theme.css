@@ -10650,6 +10650,11 @@ footer .copyright {
   margin-bottom: 20px;
 }
 
+.contact-section .contact-form .form-group .error-msg .error {
+  color: #dc3545;
+  font-size: 1.3rem;
+}
+
 .contact-section .contact-form .form-group button {
   background-color: #fff;
   color: #1E1E1E;
@@ -10706,8 +10711,27 @@ footer .copyright {
     position: absolute;
     right: 0px;
     top: 170px;
-    width: 48%;
+    width: 47%;
     height: 520px;
+  }
+}
+
+.error-section {
+  padding: 179px 0;
+}
+
+.error-section .back-to-home {
+  border: 1px solid #fff;
+  padding: 13px 30px;
+  color: #fff;
+  text-decoration: none;
+  font-size: 1.4rem;
+  line-height: 1.7rem;
+}
+
+@media (min-width: 768px) {
+  .error-section {
+    padding: 300px 0 278px;
   }
 }
 

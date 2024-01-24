@@ -9,7 +9,12 @@ $info-bg : #ECD9D9;
     .contact-form{
         .form-group{
             margin-bottom: 20px;
-
+            .error-msg{
+                .error{
+                    color: $danger;
+                    font-size: 1.3rem;
+                }
+            }
             button{
                 background-color : $white;
                 color: $primary;
@@ -35,7 +40,8 @@ $info-bg : #ECD9D9;
             }
         }
     }
-} //contact section end
+}
+//contact section end
 
 .info-section{
     background-color: $info-bg;
@@ -57,7 +63,7 @@ $info-bg : #ECD9D9;
 @media(min-width:768px){
     .contact-section{
         padding: 170px 0 110px;
-        
+
     }
 }
 
@@ -65,11 +71,11 @@ $info-bg : #ECD9D9;
     .contact-section{
         padding: 170px 0 110px;
         iframe{
-             position: absolute;
+            position: absolute;
             right: 0px;
             top: 170px;
-            width: 48%; 
+            width: 47%;
             height: 520px;
-            }            
+        }
     }
 }

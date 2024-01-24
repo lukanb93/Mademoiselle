@@ -1,0 +1,19 @@
+.error-section{
+    padding: 179px 0;
+    
+    .back-to-home{
+        border: 1px solid $white;
+        padding: 13px 30px;
+        color: $white;
+        text-decoration: none;
+        font-size: 1.4rem;
+        line-height: 1.7rem;
+    }
+}
+
+@media(min-width:768px){
+    .error-section{
+     padding: 300px 0 278px;   
+    }
+    
+}
